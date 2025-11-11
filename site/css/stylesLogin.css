@@ -1,0 +1,11 @@
+body {
+    display: flex;
+    background-color: #B8AE59;
+    flex-direction: row;
+}
+
+.container {
+    display: flex;
+    ;
+    justify-content: flex-end;
+}
