@@ -6,25 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/stylesCadastro.css">
+    <link rel="stylesheet" href="css/stylesLogin.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <main class="container">
         <section class="cadastro-card">
-            <h1>Cadastre-se</h1>
+            <h1>Login</h1>
             <div class="forma-input">
-                <div class="span-input">
-                    <span>nome</span>
-                    <input class="input-padrao" type="text" id="ipt_nome">
-                </div>
-                <div class="span-input">
-                    <span>sobrenome</span>
-                    <input class="input-padrao" type="text" id="ipt_sobrenome">
-                </div>
                 <div class="span-input">
                     <span>e-mail</span>
                     <input class="input-padrao" type="email" id="ipt_email">
@@ -33,12 +28,12 @@
                     <span>senha</span>
                     <input class="input-padrao" type="password" id="ipt_senha">
                 </div>
-                <div class="span-input">
-                    <span>confirme sua senha</span>
-                    <input class="input-padrao" type="password" id="ipt_Confsenha">
-                </div>
                 <div class="btn-container">
-                    <button onclick="cadastrar()">Caddastrar</button>
+                    <button onclick="login()">Login</button>
+                </div>
+                <div class="link-cadastro">
+                    <span>Ainda não tem uma conta?</span>
+                    <a href="../site/cadastro.html">cadastre-se</a>
                 </div>
             </div>
         </section>
