@@ -1,43 +1,38 @@
 body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
+    background-image: url(../assets/movie/Fundo_Index.gif);
+    background-size: 100% 100%;
+    flex-direction: column;
     display: flex;
+    width: 100%;
+    height: 100vh;
 }
 
 .header {
     display: flex;
-    z-index: 2;
-} 
-.banner {
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-}
-
-.banner video {
-    position: fixed;
-    top: 0;
-    left: 0;
-    object-fit: cover;
+    padding: 2rem;
     width: 100%;
-    display: block;
+    height: 20%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     height: 100vh;
+    justify-content: flex-end;
+    padding: 7%
 }
 
-.banner .content {
-    position: relative;
-    z-index: 1;
-    max-width: 100%;
-
-}
-
-.banner .content img {
-    width: 30%;
-    flex-direction: row;
-    justify-content: flex-start;
+.banner {
+    display: flex;
+    height: 50%;
     align-items: flex-end;
+    width: 50%;
+}
+
+.banner img {
+    width: 60%;
+    height: auto;
 }
