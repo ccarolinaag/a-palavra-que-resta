@@ -1,0 +1,34 @@
+body {
+    background-color: #F5DDC5;
+    display: flex;
+    flex-direction: column;
+    font-family: "DM Serif Display", serif;
+    color: #226458;
+}
+
+header {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    width: 100%;
+    height: 20%;
+
+    background-color: #B8AE59;
+    box-shadow: 1px 5px 11px #918946;
+}
+
+.lista-header {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: #226458;
+    gap: 35px;
+}
+
+.lista-header a {
+    text-decoration: none;
+    color: #226458;
+    text-decoration: underline;
+}

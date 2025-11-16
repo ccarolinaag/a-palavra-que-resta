@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../assets/movie/Fundo_Index.gif);
+    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+
+    font-family: "Quicksand", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    width: 100%;
+    height: 20%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: flex-end;
+    padding: 7%
+}
+
+.navbar-icon {
+    position: relative;
+    z-index: 999;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+.navbar-icon:hover {
+    transform: scale(1.2);
+}
+
+.banner {
+    display: flex;
+    height: 50%;
+    align-items: flex-end;
+    width: 50%;
+}
+
+.banner img {
+    width: 60%;
+    height: auto;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #B8AE59;
+    z-index: 900;
+    display: none;
+}
+
+.container-navbar {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 12%;
+}
+
+.option {
+    display: flex;
+    padding: 3%;
+    font-size: 26px;
+    color: #226458;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+.option:hover {
+    transform: scale(1.2);
+}
+
+.option a {
+    text-decoration: none;
+    color: #226458;
+}
+
+.line {
+    width: 81%;
+    border: 1px solid #226458;
+}

@@ -1,0 +1,97 @@
+.main-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 5% 9% 0%;
+}
+
+.capa-livro {
+    display: flex;
+    width: 35%;
+    justify-content: center;
+}
+
+.forma-livro {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+
+    background: transparent;
+    border: 1px solid #B8AE59;
+    height: 67%;
+    border-radius: 18px;
+}
+
+.capa-livro img {
+    width: 235%;
+}
+
+.informacoes-livro {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.identificacao {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 2%;
+}
+
+.nome-livro {
+    width: 50%;
+}
+
+.nome-livro h3 {
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+.nome-livro h4 {
+    font-size: 20px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: lighter;
+}
+
+.resenha-editar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    height: 10%;
+    align-items: flex-end;
+}
+
+.resenha-editar h3 {
+    width: 70%;
+}
+
+.resenha-editar img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 20px;
+    height: auto;
+}
+
+.margem-resenha {
+    display: flex;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+
+    background: transparent;
+    border: 1px solid #B8AE59;
+    height: 67%;
+}
+
+.margem-resenha p {
+    font-family: "Quicksand", sans-serif;
+    margin: 30px 30px;
+}
+
+.convite {
+    width: 19%;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A palavra que resta</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="container-navbar">
+            <hr class="line">
+            <div class="option">
+                <a href="login1.html">login</a>
+            </div>
+            <hr class="line">
+            <div class="option">
+                <a href="cadastro.html">cadastre-se</a>
+            </div>
+            <hr class="line">
+            <div class="option">
+                <a href="sobre.html">sobre</a>
+            </div>
+            <hr class="line">
+        </div>
+    </div>
+    <header class="header">
+        <a class="icone" onclick="abrirnavbar()">
+            <img class="navbar-icon" src="assets/icons/select.svg" alt="navbar-login" style="color: #B8AE59;">
+        </a>
+    </header>
+    <main class="container">
+        <div class="banner">
+            <img src="assets/a pala.png" alt="logo-palavraQueResta">
+        </div>
+    </main>
+</body>
+<script>
+    function abrirnavbar() {
+        const navbar = document.querySelector(".navbar");
+        const button = document.querySelector(".navbar-icon");
+
+        if (navbar.style.display === "block") {
+            navbar.style.display = "none";
+            button.src = "assets/icons/select.svg";
+        } else {
+            navbar.style.display = "block";
+            button.src = "assets/icons/select-darkgreen.svg";
+        }
+    }
+
+    func
+</script>
+
+</html>

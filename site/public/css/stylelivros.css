@@ -1,0 +1,149 @@
+.list-content {
+    transition: transform 0.2s ease;
+}
+
+.list-content:hover {
+    transform: scale(1.1);
+}
+
+.name-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-nav img {
+    color: #F5DDC5;
+}
+
+.container-lista {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5% 9% 0%;
+}
+
+.nav-feed {
+    display: flex;
+    flex-direction: column;
+    font-family: "Quicksand", sans-serif;
+}
+
+.container-inicial {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 0px 5px 0px;
+}
+
+.container-inicial p {
+    padding: 0% 0% 1% 0%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.botoes {
+    flex: 4;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.forma-botao {
+    height: 80%;
+    flex: 2;
+
+    background: #E5DB8D;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.forma-botao:hover {
+    background: #226458;
+    color: #E5DB8D;
+    transform: scale(1.05);
+}
+
+.forma-botao p {
+    font-weight: lighter;
+}
+
+.botao-adicionar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.botao-adicionar img {
+    transition: transform 0.3s ease;
+}
+
+.botao-adicionar:hover img {
+    transform: scale(1.05);
+    content: url("../assets/icons/add-inverso.png");
+}
+
+
+.line-inicial {
+    border: 2px solid #226458;
+}
+
+.identificacao {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 3% 0% 3% 0%;
+    gap: 2%;
+}
+
+.nome-livro {
+    width: 28%;
+}
+
+.nome-livro h3 {
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+.nome-livro h4 {
+    font-size: 20px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: lighter;
+}
+
+.line {
+    border: 1px solid #226458;
+}
+
+.capa-livro img {
+    width: 246px;
+    height: 368px;
+
+    background: url(image.png);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.add-button {
+    height: 100%;
+}
+
+.p-inicial {
+    flex: 5;
+    padding: 0 !important;
+}
+
+.forma-botao,
+.botao-adicionar {
+    height: 35px;
+}
